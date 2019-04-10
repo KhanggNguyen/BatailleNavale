@@ -1,0 +1,59 @@
+// Si le curseur est sur 1 on va au premier 1 du fichier.  
+// On enregistre le caractére 1 dans une variable p.
+// On parcoure le tableau si on trouve un caractére (Tant que) !=p ou 0 on arrete tout.
+// On augmente la variable colonne de 1 jusqu'à ce qu'on arrive a la ligne L (Tant que u!=L)
+// On compte aussi le nombre de ligne (Tant que u!=C, compteur++) ligne=ligne/colonne;
+
+char u;
+char p;
+curseur=1;
+While (u!=curseur){
+fichier >> u;
+}
+p=u;
+
+While (p!=C){
+ While (p!=L
+fichier >> p;
+
+
+
+
+1
+0 0 1 0 0 0 L 
+0 1 0 1 0 1 
+1 1 0 1 1 1 
+0 0 1 0 0 0 
+0 0 0 0 0 0 C
+
+2
+0 2 0 2 0 L
+0 0 2 0 0
+0 0 2 0 0
+0 2 0 2 0
+0 0 0 0 0
+C
+
+3
+0 0 3 0 0 L
+3 3 3 3 0
+0 0 3 0 0
+0 0 0 0 0
+0 0 0 0 0
+C
+
+4
+0 4 0 0 0 L
+0 4 4 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+C
+
+5
+0 0 0 0 0 L
+0 0 0 0 0
+0 0 5 0 0
+0 0 5 5 0
+0 0 0 5 0
+C
